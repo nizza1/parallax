@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: santioB;
+    src: url(../fonts/SANTIO/TTF/Santio\ Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: tangerine;
+    src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+.header p {
+    color: #fff;
+    font-family: roboto;
+    font-size: 1.5em;
+}
+
+.header img {
+    width: 2em;
+    margin: 1em;
+}
+
+.parallax1 {
+    background-image: url(../img/cleo-topper.jpg);
+    min-height: 80vh ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.parallax1 h1 {
+    padding-left: 2em;
+    padding-top: 5em;
+    font-size: 4em;
+    font-family: santioB;
+    color: #fff;
+    width: 13ch;
+
+}
+
+.scrollTo {
+    height: 80vh;
+    padding-left: 2em;
+    padding-top: 5em;
+    font-size: 3rem;
+    font-family: tangerine;
+    color: #e7bc0e;
+    font-weight: bold;
+
+}
+
+.text {
+    font-family: santioB;
+    color: #6bc1a3;
+    height: 80vh;
+    max-width: 50ch;
+    font-size: 2rem;
+    line-height: 1.5em;
+    margin-left: 10vw;
+    
+
+}
+
+.highlightText {
+    padding-top: 0.2em;
+    color: #fff;
+    background-color: #29272A;
+}
+
+.iconContainer {
+    font-family: santioB;
+    margin-left: 10vw;
+    height: 80vh;
+
+}
+
+.iconContainer .icon {
+    width: 15vw;
+}
+
+.iconContainer .title {
+    font-size: 6rem;
+    line-height: 1.5em;
+
+}
+
+.iconContainer .discrip {
+    font-size: 2.1rem;
+    line-height: 1.5em;
+
+}
+
+.iconContainer .first {
+    color: #e7bc0e;
+
+}
+
+.iconContainer .second {
+    color: #cb91b6;
+
+}
+
+.iconContainer .last {
+    color: #6bc1a3;
+}
+
+.textBottom {
+    font-family: santioB;
+    color: #7eb8e1;
+    height: 80vh;
+    max-width: 50ch;
+    font-size: 2rem;
+    line-height: 1.5em;
+    margin-left: 18vw;
+
+}
+
+.imgBottom {
+
+}
+
+.imgContainer {
+    width: 100vw;
+}
+
+.imgContainer img {
+    width: 100%;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: #fff;
+    font-family: santioB;
+    font-size: 4rem;
+    word-spacing: 0.2em;
+    line-height: 1em;
+    max-width: 17ch;
+    padding: 20vh 0 10vh;
+    margin-left: 20vw;
+}
+
+footer a {
+    font-family: roboto;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1em 1.5em;
+    display: inline-block;
+    margin-bottom: 20vh;
+    margin-left: 20vw;
+}
+footer a:hover {
+    box-shadow: 0.2em 0.2em #fff;
+}
+
+footer h3 {
+    text-align: center;
+    color: #fff;
+    font-family: roboto;
+}
+
+footer h3 span {
+    color: #6bc1a3;
+} 
+
+
+
+
+
+
+
+
+
+
